@@ -48,18 +48,20 @@ Pilots currently rely on paper E6B flight computers, printed charts, or separate
 Simple tab or menu-based navigation from a home screen to the three core tools. Planned screen flow:
 
 1. **Home Screen** — app title and three navigation buttons, one per tool
+   
    <img width="277" height="547" alt="image" src="https://github.com/user-attachments/assets/16662895-6ebb-4719-9ef0-339759f1e430" />
    
 3. **Turn Calculator Screen** — single input field for current course, three result fields for 90/180/270 outcomes
+
    <img width="277" height="547" alt="image" src="https://github.com/user-attachments/assets/ba03ca60-b6d9-417e-83c5-12ce051b29d5" />
    
 5. **Wind Calculator Screen** — input fields for heading, wind direction, and wind speed, with output fields for crosswind and headwind/tailwind components
+
    <img width="277" height="547" alt="image" src="https://github.com/user-attachments/assets/0a9fc412-e133-4585-98bc-a832036f24ef" />
 
 7. **Airport Info Screen** — search field for airport identifier, results area listing runways and frequencies for the matched airport
-   <img width="277" height="547" alt="image" src="https://github.com/user-attachments/assets/1dca9a38-fbd1-4cfe-bcb6-d026221a7bf5" />
 
-Wireframe image assets will be added to this Wiki once sketches are finalized.
+   <img width="277" height="547" alt="image" src="https://github.com/user-attachments/assets/1dca9a38-fbd1-4cfe-bcb6-d026221a7bf5" />
 
 ## Course
 
