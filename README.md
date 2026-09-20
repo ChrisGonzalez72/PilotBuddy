@@ -45,23 +45,12 @@ Pilots currently rely on paper E6B flight computers, printed charts, or separate
 
 ## Design (Wireframes)
 
-Simple tab or menu-based navigation from a home screen to the three core tools. Planned screen flow:
+Simple tab or menu-based navigation from a home screen to the three core tools. Planned screen flow, left to right:
 
-1. **Home Screen** — app title and three navigation buttons, one per tool
-   
-   <img width="277" height="547" alt="image" src="https://github.com/user-attachments/assets/16662895-6ebb-4719-9ef0-339759f1e430" />
-   
-3. **Turn Calculator Screen** — single input field for current course, three result fields for 90/180/270 outcomes
-
-   <img width="277" height="547" alt="image" src="https://github.com/user-attachments/assets/ba03ca60-b6d9-417e-83c5-12ce051b29d5" />
-   
-5. **Wind Calculator Screen** — input fields for heading, wind direction, and wind speed, with output fields for crosswind and headwind/tailwind components
-
-   <img width="277" height="547" alt="image" src="https://github.com/user-attachments/assets/0a9fc412-e133-4585-98bc-a832036f24ef" />
-
-7. **Airport Info Screen** — search field for airport identifier, results area listing runways and frequencies for the matched airport
-
-   <img width="277" height="547" alt="image" src="https://github.com/user-attachments/assets/1dca9a38-fbd1-4cfe-bcb6-d026221a7bf5" />
+| Home | Turn Calculator | Wind Calculator | Airport Info |
+| :--: | :-------------: | :-------------: | :----------: |
+| <img width="200" alt="Home screen wireframe" src="https://github.com/user-attachments/assets/16662895-6ebb-4719-9ef0-339759f1e430" /> | <img width="200" alt="Turn Calculator wireframe" src="https://github.com/user-attachments/assets/ba03ca60-b6d9-417e-83c5-12ce051b29d5" /> | <img width="200" alt="Wind Calculator wireframe" src="https://github.com/user-attachments/assets/0a9fc412-e133-4585-98bc-a832036f24ef" /> | <img width="200" alt="Airport Info wireframe" src="https://github.com/user-attachments/assets/1dca9a38-fbd1-4cfe-bcb6-d026221a7bf5" /> |
+| App title and three navigation buttons, one per tool | Single input field for current course, three result fields for 90/180/270 outcomes | Input fields for heading, wind direction, and wind speed, with output fields for crosswind and headwind/tailwind components | Search field for airport identifier, results area listing runways and frequencies for the matched airport |
 
 ## Application Development
 
