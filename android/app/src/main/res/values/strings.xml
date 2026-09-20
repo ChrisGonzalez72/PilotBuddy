@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">PilotBuddy</string>
+    <string name="app_tagline">Flight planning, simplified</string>
+
+    <!-- Home -->
+    <string name="app_logo_desc">PilotBuddy logo</string>
+    <string name="nav_turn_calculator">Turn Calculator</string>
+    <string name="nav_crosswind_calculator">Crosswind Calculator</string>
+    <string name="nav_airport_information">Airport Information</string>
+    <string name="nav_back">Navigate up</string>
+
+    <!-- Turn Calculator -->
+    <string name="turn_input_hint">Enter initial heading in degrees</string>
+    <string name="turn_input_suffix">°</string>
+    <string name="turn_result_90">After 90° turn</string>
+    <string name="turn_result_180">After 180° turn</string>
+    <string name="turn_result_270">After 270° turn</string>
+    <string name="turn_error_range">Heading must be 0–359</string>
+
+    <!-- Crosswind Calculator -->
+    <string name="wind_heading_hint">Enter heading in degrees</string>
+    <string name="wind_direction_hint">Enter wind direction in degrees</string>
+    <string name="wind_speed_hint">Enter wind speed in knots</string>
+    <string name="wind_headtail_label">Headwind / Tailwind</string>
+    <string name="wind_crosswind_label">Crosswind Component</string>
+    <string name="wind_error_range_deg">Must be 0–359</string>
+    <string name="wind_error_speed">Enter a valid speed</string>
+    <string name="wind_headwind_fmt">%d kts Headwind</string>
+    <string name="wind_tailwind_fmt">%d kts Tailwind</string>
+    <string name="wind_crosswind_right_fmt">%d kts from right</string>
+    <string name="wind_crosswind_left_fmt">%d kts from left</string>
+    <string name="wind_crosswind_none">0 kts (direct)</string>
+
+    <!-- Airport Information -->
+    <string name="airport_identifier_hint">Select or type an airport identifier</string>
+    <string name="airport_runways_header">Runways</string>
+    <string name="airport_frequencies_header">Frequencies</string>
+    <string name="airport_runway_fmt">%1$s ft, %2$s</string>
+    <string name="airport_empty">Select an airport to view its runways and frequencies.</string>
+    <string name="airport_not_found">No airport found for that identifier.</string>
+
+    <!-- Result placeholder -->
+    <string name="result_placeholder">—</string>
+    <string name="logo_Description">Logo with Image of headset with checkmark</string>
+</resources>

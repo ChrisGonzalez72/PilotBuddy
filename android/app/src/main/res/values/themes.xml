@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PilotBuddy" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/aviation_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/sky_container</item>
+        <item name="colorOnPrimaryContainer">@color/on_sky_container</item>
+        <item name="colorSecondary">@color/sky_blue</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">@color/aviation_blue</item>
+    </style>
+
+    <style name="Theme.PilotBuddy" parent="Base.Theme.PilotBuddy" />
+
+    <!-- App bar for feature screens -->
+    <style name="Widget.PilotBuddy.Toolbar" parent="Widget.Material3.Toolbar.OnSurface">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="navigationIconTint">@color/white</item>
+    </style>
+
+    <!-- Section header text -->
+    <style name="TextAppearance.PilotBuddy.SectionHeader" parent="TextAppearance.Material3.TitleMedium">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+</resources>

@@ -63,6 +63,24 @@ Simple tab or menu-based navigation from a home screen to the three core tools. 
 
    <img width="277" height="547" alt="image" src="https://github.com/user-attachments/assets/1dca9a38-fbd1-4cfe-bcb6-d026221a7bf5" />
 
+## Application Development
+
+The screenshots below show the working Android build of each screen from the wireframes above. Every screen was captured on an Android emulator in both a light theme and a dark theme. The three tool screens appear in their empty state, before any values are entered.
+
+| Screen | Light Theme | Dark Theme |
+| :----: | :---------: | :--------: |
+| **Home** | <img width="277" alt="PilotBuddy home screen, light theme" src="docs/screenshots/home-light.png" /> | <img width="277" alt="PilotBuddy home screen, dark theme" src="docs/screenshots/home-dark.png" /> |
+| **Turn Calculator** | <img width="277" alt="Turn Calculator screen, light theme" src="docs/screenshots/turn-light.png" /> | <img width="277" alt="Turn Calculator screen, dark theme" src="docs/screenshots/turn-dark.png" /> |
+| **Crosswind Calculator** | <img width="277" alt="Crosswind Calculator screen, light theme" src="docs/screenshots/crosswind-light.png" /> | <img width="277" alt="Crosswind Calculator screen, dark theme" src="docs/screenshots/crosswind-dark.png" /> |
+| **Airport Information** | <img width="277" alt="Airport Information screen, light theme" src="docs/screenshots/airport-light.png" /> | <img width="277" alt="Airport Information screen, dark theme" src="docs/screenshots/airport-dark.png" /> |
+
+**Screen notes**
+- The home screen provides one button for each of the three tools.
+- The Turn Calculator takes an initial heading and has three result fields for the 90, 180, and 270 degree turns.
+- The Crosswind Calculator takes a heading, wind direction, and wind speed, and has result fields for the headwind/tailwind and crosswind components.
+- The Airport Information screen uses a dropdown field that accepts either a typed airport identifier or a selection from the list.
+- Each tool screen has a back arrow in the top app bar.
+
 ## Course
 
 COM 437: Mobile Application Development — Module 2 Project Outline
