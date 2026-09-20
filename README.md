@@ -58,10 +58,10 @@ The screenshots below show the working Android build of each screen from the wir
 
 | Screen | Light Theme | Dark Theme |
 | :----: | :---------: | :--------: |
-| **Home** | <img width="277" alt="PilotBuddy home screen, light theme" src="docs/screenshots/home-light.png" /> | <img width="277" alt="PilotBuddy home screen, dark theme" src="docs/screenshots/home-dark.png" /> |
-| **Turn Calculator** | <img width="277" alt="Turn Calculator screen, light theme" src="docs/screenshots/turn-light.png" /> | <img width="277" alt="Turn Calculator screen, dark theme" src="docs/screenshots/turn-dark.png" /> |
-| **Crosswind Calculator** | <img width="277" alt="Crosswind Calculator screen, light theme" src="docs/screenshots/crosswind-light.png" /> | <img width="277" alt="Crosswind Calculator screen, dark theme" src="docs/screenshots/crosswind-dark.png" /> |
-| **Airport Information** | <img width="277" alt="Airport Information screen, light theme" src="docs/screenshots/airport-light.png" /> | <img width="277" alt="Airport Information screen, dark theme" src="docs/screenshots/airport-dark.png" /> |
+| **Home** | <img width="277" alt="PilotBuddy home screen, light theme" src="https://github.com/ChrisGonzalez72/PilotBuddy/blob/main/docs/screenshots/home-light.png" /> | <img width="277" alt="PilotBuddy home screen, dark theme" src="https://github.com/ChrisGonzalez72/PilotBuddy/blob/main/docs/screenshots/home-dark.png" /> |
+| **Turn Calculator** | <img width="277" alt="Turn Calculator screen, light theme" src="https://github.com/ChrisGonzalez72/PilotBuddy/blob/main/docs/screenshots/turn-light.png" /> | <img width="277" alt="Turn Calculator screen, dark theme" src="https://github.com/ChrisGonzalez72/PilotBuddy/blob/main/docs/screenshots/turn-dark.png" /> |
+| **Crosswind Calculator** | <img width="277" alt="Crosswind Calculator screen, light theme" src="https://github.com/ChrisGonzalez72/PilotBuddy/blob/main/docs/screenshots/crosswind-light.png" /> | <img width="277" alt="Crosswind Calculator screen, dark theme" src="https://github.com/ChrisGonzalez72/PilotBuddy/blob/main/docs/screenshots/crosswind-dark.png" /> |
+| **Airport Information** | <img width="277" alt="Airport Information screen, light theme" src="https://github.com/ChrisGonzalez72/PilotBuddy/blob/main/docs/screenshots/airport-light.png" /> | <img width="277" alt="Airport Information screen, dark theme" src="https://github.com/ChrisGonzalez72/PilotBuddy/blob/main/docs/screenshots/airport-dark.png" /> |
 
 **Screen notes**
 - The home screen provides one button for each of the three tools.
