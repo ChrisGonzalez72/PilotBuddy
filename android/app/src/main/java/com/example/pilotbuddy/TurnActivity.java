@@ -9,6 +9,8 @@ import com.google.android.material.appbar.MaterialToolbar;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
 
+import java.util.Locale;
+
 public class TurnActivity extends BaseActivity{
 
     private TextInputLayout inputLayout;
@@ -33,6 +35,47 @@ public class TurnActivity extends BaseActivity{
         result180 = findViewById(R.id.result_180).findViewById(R.id.text_result_value);
         result270 = findViewById(R.id.result_270).findViewById(R.id.text_result_value);
 
+        editHeading.addTextChangedListener(new SimpleTextWatcher(this::recalculate));
+
         }
 
+    private void recalculate() {
+        String raw = editHeading.getText() == null ? "" : editHeading.getText().toString().trim();
+        if (raw.isEmpty()) {
+            inputLayout.setError(null);
+            clearResults();
+            return;
+        }
+
+        int heading;
+        try {
+            heading = Integer.parseInt(raw);
+        } catch (NumberFormatException e) {
+            inputLayout.setError(getString(R.string.turn_error_range));
+            clearResults();
+            return;
+        }
+
+        if (heading < 0 || heading > 359) {
+            inputLayout.setError(getString(R.string.turn_error_range));
+            clearResults();
+            return;
+        }
+
+        inputLayout.setError(null);
+        result90.setText(formatHeading((heading + 90) % 360));
+        result180.setText(formatHeading((heading + 180) % 360));
+        result270.setText(formatHeading((heading + 270) % 360));
+    }
+
+    private String formatHeading(int degrees) {
+        return String.format(Locale.US, "%03d%s", degrees, getString(R.string.turn_input_suffix));
+    }
+
+    private void clearResults() {
+        String placeholder = getString(R.string.result_placeholder);
+        result90.setText(placeholder);
+        result180.setText(placeholder);
+        result270.setText(placeholder);
+    }
 }
