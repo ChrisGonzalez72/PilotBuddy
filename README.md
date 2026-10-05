@@ -29,6 +29,13 @@ Pilots currently rely on paper E6B flight computers, printed charts, or separate
 - Data is normalized into separate airport, runway, and frequency tables rather than one flat table, to avoid repeating airport-level data for every runway or frequency entry
 - A future iteration could add a live aviation data API, the initial version uses a static, locally stored dataset so the app works without an internet connection
 
+**Database Design**
+| Table | Key Fields | Purpose |
+| :--: | :-------------: | :-------------: |
+| airports | airport_id (PK), ident, name, city, state, elevation_ft | One row per airport |
+| runways | runway_id (PK), airport_id (FK), designator, length_ft, surface, heading | Many runways per airport |
+| frequencies |	runway_id (PK), airport_id (FK), designator, length_ft, surface, heading | Many frequencies per airport |
+
 ## Functionality
 
 **90/180/270 Course Calculator**
